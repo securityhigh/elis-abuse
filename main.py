@@ -16,6 +16,7 @@ def main():
         if len(argv) == 4:
             randoms = True
 
+        print("by overnull.ru")
         text = input("text: ")
 
     except:
