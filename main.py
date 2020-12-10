@@ -7,7 +7,7 @@ from time import sleep
 
 
 def main():
-    print("partner overnull.ru")
+    print("partner overnull.ru (Telegram @overnull)")
     try:
         phone = argv[1]
         count = int(argv[2])
